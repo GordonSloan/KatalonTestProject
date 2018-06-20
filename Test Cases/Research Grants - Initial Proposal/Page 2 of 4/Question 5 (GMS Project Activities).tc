@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Question 5 (GMS Project Activities)</name>
+   <tag></tag>
+   <comment>Activity 1
+Activity 2</comment>
+   <testCaseGuid>58ab975c-b26c-4562-8859-21b2b906650d</testCaseGuid>
+</TestCaseEntity>

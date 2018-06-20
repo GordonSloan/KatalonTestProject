@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_select (2)</name>
+   <tag></tag>
+   <elementGuidId>acb5a6a4-3f1e-4dff-ab86-1e62b3e88e62</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;ctl00_MainContent_ctl00_ucFormItems_ctl04_ucProjectActivities_rgProjectActivities_ctl00_ctl03_ctl01_ddlOutcome_Arrow&quot;)[count(. | //a[@id = 'ctl00_MainContent_ctl00_ucFormItems_ctl04_ucProjectActivities_rgProjectActivities_ctl00_ctl03_ctl01_ddlOutcome_Arrow' and (text() = 'select' or . = 'select')]) = count(//a[@id = 'ctl00_MainContent_ctl00_ucFormItems_ctl04_ucProjectActivities_rgProjectActivities_ctl00_ctl03_ctl01_ddlOutcome_Arrow' and (text() = 'select' or . = 'select')])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ctl00_MainContent_ctl00_ucFormItems_ctl04_ucProjectActivities_rgProjectActivities_ctl00_ctl03_ctl01_ddlOutcome_Arrow</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ctl00_MainContent_ctl00_ucFormItems_ctl04_ucProjectActivities_rgProjectActivities_ctl00_ctl03_ctl01_ddlOutcome_Arrow&quot;)</value>
+   </webElementProperties>
+</WebElementEntity>

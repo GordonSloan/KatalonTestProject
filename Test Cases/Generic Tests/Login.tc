@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0147972e-b538-4bc5-8b4a-3d8e779b5524</testCaseGuid>
+   <variable>
+      <defaultValue>'test.user@sharklasers.com'</defaultValue>
+      <description></description>
+      <id>abd307fa-1360-4e05-b03e-ec0dda1adaa8</id>
+      <masked>false</masked>
+      <name>var_username</name>
+   </variable>
+   <variable>
+      <defaultValue>'password123'</defaultValue>
+      <description></description>
+      <id>22a58b58-9727-442b-ab1f-22ad6272fc21</id>
+      <masked>false</masked>
+      <name>var_password</name>
+   </variable>
+</TestCaseEntity>
