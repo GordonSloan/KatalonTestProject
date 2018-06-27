@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Demo" time="27" tests="3" failures="0" errors="0">
+   <testsuite name="TS_Demo" tests="3" failures="0" errors="0" time="27" timestamp="2018-06-21 15:17:33" hostname="GordonSloan - 172.16.92.229" id="Test Suites/TS_Demo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Workspace\\Test Project\\KatalonTestProject\\Reports\\TS_Demo\\20180621_151731"/>
+         <property name="logFiles" value="C:\\Workspace\\Test Project\\KatalonTestProject\\Reports\\TS_Demo\\20180621_151731\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="GordonSloan - 172.16.92.229"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.87"/>
+         <property name="hostAddress" value="172.16.92.229"/>
+         <property name="sessionId" value="c82dd9e6bc23958a99f28dba945b58e5"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test Cases - Portal/TC1_Verify Successfull Login" classname="Test Cases/Test Cases - Portal/TC1_Verify Successfull Login" status="PASSED">
+         <system-out><![CDATA[2018-06-21 15:17:33 - [TEST_CASE][PASSED] - Test Cases/Test Cases - Portal/TC1_Verify Successfull Login: Test Cases/Test Cases - Portal/TC1_Verify Successfull Login
+
+2018-06-21 15:17:34 - [TEST_STEP][PASSED] - comment: Story: Login to Flexi-Grant
+
+2018-06-21 15:17:34 - [TEST_STEP][PASSED] - comment: Given that the user has valid login details
+
+2018-06-21 15:17:34 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-21 15:17:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-21 15:17:37 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://gordontesting.flexigrant.com/' successfully
+
+2018-06-21 15:17:40 - [MESSAGE][PASSED] - Navigate to 'https://gordontesting.flexigrant.com/' successfully
+
+2018-06-21 15:17:40 - [TEST_STEP][PASSED] - comment: When they login to the system
+
+2018-06-21 15:17:40 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Generic Tests/Login' successfully
+
+2018-06-21 15:17:40 - [TEST_CASE][PASSED] - Test Cases/Generic Tests/Login: Test Cases/Generic Tests/Login
+
+2018-06-21 15:17:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Generic Tests/Login/Page_Portal homepage - Gordon Testi/a_Login' is clicked on
+
+2018-06-21 15:17:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic Tests/Login/Page_Portal homepage - Gordon Testi/a_Login' is clicked on
+
+2018-06-21 15:17:42 - [TEST_STEP][PASSED] - setText: Text 'test.user@sharklasers.com' is set on object 'Object Repository/Generic Tests/Login/Page_Login - Gordon Testing/txtUserName'
+
+2018-06-21 15:17:42 - [MESSAGE][PASSED] - Text 'test.user@sharklasers.com' is set on object 'Object Repository/Generic Tests/Login/Page_Login - Gordon Testing/txtUserName'
+
+2018-06-21 15:17:42 - [TEST_STEP][PASSED] - setText: Text 'password123' is set on object 'Object Repository/Generic Tests/Login/Page_Login - Gordon Testing/txtPassword'
+
+2018-06-21 15:17:42 - [MESSAGE][PASSED] - Text 'password123' is set on object 'Object Repository/Generic Tests/Login/Page_Login - Gordon Testing/txtPassword'
+
+2018-06-21 15:17:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Generic Tests/Login/Page_Login - Gordon Testing/btnLogin' is clicked on
+
+2018-06-21 15:17:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic Tests/Login/Page_Login - Gordon Testing/btnLogin' is clicked on
+
+2018-06-21 15:17:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Generic Tests/Login' successfully
+
+2018-06-21 15:17:43 - [TEST_STEP][PASSED] - comment: They should be logged in successfully
+
+2018-06-21 15:17:43 - [TEST_STEP][PASSED] - Statement - switch (var_expectedResult.toString()): null
+
+2018-06-21 15:17:43 - [TEST_STEP][PASSED] - Statement - case "valid_details":: null
+
+2018-06-21 15:17:43 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/TC1_Verify Successfull Login/Page_Portal homepage - Gordon Testi/div_Logged in as  test.usersha' is present
+
+2018-06-21 15:17:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-21 15:17:43 - [MESSAGE][PASSED] - Object 'Object Repository/TC1_Verify Successfull Login/Page_Portal homepage - Gordon Testi/div_Logged in as  test.usersha' is present
+
+2018-06-21 15:17:43 - [TEST_STEP][PASSED] - Statement - Break: null
+
+2018-06-21 15:17:43 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-21 15:17:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Cases - Portal/TC1_Verify Successfull Login" classname="Test Cases/Test Cases - Portal/TC1_Verify Successfull Login" status="PASSED">
+         <system-out><![CDATA[2018-06-21 15:17:44 - [TEST_CASE][PASSED] - Test Cases/Test Cases - Portal/TC1_Verify Successfull Login: Test Cases/Test Cases - Portal/TC1_Verify Successfull Login
+
+2018-06-21 15:17:44 - [TEST_STEP][PASSED] - comment: Story: Login to Flexi-Grant
+
+2018-06-21 15:17:44 - [TEST_STEP][PASSED] - comment: Given that the user has valid login details
+
+2018-06-21 15:17:44 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-21 15:17:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-21 15:17:46 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://gordontesting.flexigrant.com/' successfully
+
+2018-06-21 15:17:48 - [MESSAGE][PASSED] - Navigate to 'https://gordontesting.flexigrant.com/' successfully
+
+2018-06-21 15:17:48 - [TEST_STEP][PASSED] - comment: When they login to the system
+
+2018-06-21 15:17:48 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Generic Tests/Login' successfully
+
+2018-06-21 15:17:48 - [TEST_CASE][PASSED] - Test Cases/Generic Tests/Login: Test Cases/Generic Tests/Login
+
+2018-06-21 15:17:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Generic Tests/Login/Page_Portal homepage - Gordon Testi/a_Login' is clicked on
+
+2018-06-21 15:17:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic Tests/Login/Page_Portal homepage - Gordon Testi/a_Login' is clicked on
+
+2018-06-21 15:17:49 - [TEST_STEP][PASSED] - setText: Text 'non.existant@email.com' is set on object 'Object Repository/Generic Tests/Login/Page_Login - Gordon Testing/txtUserName'
+
+2018-06-21 15:17:49 - [MESSAGE][PASSED] - Text 'non.existant@email.com' is set on object 'Object Repository/Generic Tests/Login/Page_Login - Gordon Testing/txtUserName'
+
+2018-06-21 15:17:49 - [TEST_STEP][PASSED] - setText: Text 'nopassword' is set on object 'Object Repository/Generic Tests/Login/Page_Login - Gordon Testing/txtPassword'
+
+2018-06-21 15:17:49 - [MESSAGE][PASSED] - Text 'nopassword' is set on object 'Object Repository/Generic Tests/Login/Page_Login - Gordon Testing/txtPassword'
+
+2018-06-21 15:17:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Generic Tests/Login/Page_Login - Gordon Testing/btnLogin' is clicked on
+
+2018-06-21 15:17:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic Tests/Login/Page_Login - Gordon Testing/btnLogin' is clicked on
+
+2018-06-21 15:17:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Generic Tests/Login' successfully
+
+2018-06-21 15:17:51 - [TEST_STEP][PASSED] - comment: They should be logged in successfully
+
+2018-06-21 15:17:51 - [TEST_STEP][PASSED] - Statement - switch (var_expectedResult.toString()): null
+
+2018-06-21 15:17:51 - [TEST_STEP][PASSED] - Statement - case "user_not_found":: null
+
+2018-06-21 15:17:51 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/TC1_Verify Successfull Login/Page_Login - Gordon Testing/p_User not found.' is present
+
+2018-06-21 15:17:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-21 15:17:51 - [MESSAGE][PASSED] - Object 'Object Repository/TC1_Verify Successfull Login/Page_Login - Gordon Testing/p_User not found.' is present
+
+2018-06-21 15:17:51 - [TEST_STEP][PASSED] - Statement - Break: null
+
+2018-06-21 15:17:51 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-21 15:17:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Cases - Portal/TC1_Verify Successfull Login" classname="Test Cases/Test Cases - Portal/TC1_Verify Successfull Login" status="PASSED">
+         <system-out><![CDATA[2018-06-21 15:17:52 - [TEST_CASE][PASSED] - Test Cases/Test Cases - Portal/TC1_Verify Successfull Login: Test Cases/Test Cases - Portal/TC1_Verify Successfull Login
+
+2018-06-21 15:17:52 - [TEST_STEP][PASSED] - comment: Story: Login to Flexi-Grant
+
+2018-06-21 15:17:52 - [TEST_STEP][PASSED] - comment: Given that the user has valid login details
+
+2018-06-21 15:17:52 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-21 15:17:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-21 15:17:54 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://gordontesting.flexigrant.com/' successfully
+
+2018-06-21 15:17:56 - [MESSAGE][PASSED] - Navigate to 'https://gordontesting.flexigrant.com/' successfully
+
+2018-06-21 15:17:56 - [TEST_STEP][PASSED] - comment: When they login to the system
+
+2018-06-21 15:17:56 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Generic Tests/Login' successfully
+
+2018-06-21 15:17:56 - [TEST_CASE][PASSED] - Test Cases/Generic Tests/Login: Test Cases/Generic Tests/Login
+
+2018-06-21 15:17:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Generic Tests/Login/Page_Portal homepage - Gordon Testi/a_Login' is clicked on
+
+2018-06-21 15:17:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic Tests/Login/Page_Portal homepage - Gordon Testi/a_Login' is clicked on
+
+2018-06-21 15:17:57 - [TEST_STEP][PASSED] - setText: Text 'test.user@sharklasers.com' is set on object 'Object Repository/Generic Tests/Login/Page_Login - Gordon Testing/txtUserName'
+
+2018-06-21 15:17:57 - [MESSAGE][PASSED] - Text 'test.user@sharklasers.com' is set on object 'Object Repository/Generic Tests/Login/Page_Login - Gordon Testing/txtUserName'
+
+2018-06-21 15:17:57 - [TEST_STEP][PASSED] - setText: Text 'qwerty789' is set on object 'Object Repository/Generic Tests/Login/Page_Login - Gordon Testing/txtPassword'
+
+2018-06-21 15:17:57 - [MESSAGE][PASSED] - Text 'qwerty789' is set on object 'Object Repository/Generic Tests/Login/Page_Login - Gordon Testing/txtPassword'
+
+2018-06-21 15:17:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Generic Tests/Login/Page_Login - Gordon Testing/btnLogin' is clicked on
+
+2018-06-21 15:17:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic Tests/Login/Page_Login - Gordon Testing/btnLogin' is clicked on
+
+2018-06-21 15:17:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Generic Tests/Login' successfully
+
+2018-06-21 15:17:59 - [TEST_STEP][PASSED] - comment: They should be logged in successfully
+
+2018-06-21 15:17:59 - [TEST_STEP][PASSED] - Statement - switch (var_expectedResult.toString()): null
+
+2018-06-21 15:17:59 - [TEST_STEP][PASSED] - Statement - case "incorrect_password":: null
+
+2018-06-21 15:17:59 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/TC1_Verify Successfull Login/Page_Login - Gordon Testing/p_Invalid usernameemail or pas' is present
+
+2018-06-21 15:17:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-21 15:17:59 - [MESSAGE][PASSED] - Object 'Object Repository/TC1_Verify Successfull Login/Page_Login - Gordon Testing/p_Invalid usernameemail or pas' is present
+
+2018-06-21 15:17:59 - [TEST_STEP][PASSED] - Statement - Break: null
+
+2018-06-21 15:17:59 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-21 15:18:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-21 15:17:33 - [TEST_SUITE][PASSED] - TS_Demo: Test Cases/Test Cases - Portal/TC1_Verify Successfull Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

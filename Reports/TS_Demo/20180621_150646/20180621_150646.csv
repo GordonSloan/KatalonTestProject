@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Demo,Chrome 67.0.3396.87,,2018-06-21 15:06:48,2018-06-21 15:07:19,30.804s,PASSED
+,,,,,,
+Test Cases/Test Cases - Portal/TC1_Verify Successfull Login,Chrome 67.0.3396.87,,2018-06-21 15:06:48,2018-06-21 15:06:58,9.501s,PASSED
+comment,Chrome 67.0.3396.87,,2018-06-21 15:06:48,2018-06-21 15:06:48,0.036s,PASSED
+comment,Chrome 67.0.3396.87,,2018-06-21 15:06:48,2018-06-21 15:06:49,0.002s,PASSED
+openBrowser,Chrome 67.0.3396.87,(This can be added to a setup function),2018-06-21 15:06:49,2018-06-21 15:06:52,3.031s,PASSED
+navigateToUrl,Chrome 67.0.3396.87,,2018-06-21 15:06:52,2018-06-21 15:06:54,2.191s,PASSED
+comment,Chrome 67.0.3396.87,,2018-06-21 15:06:54,2018-06-21 15:06:54,0.004s,PASSED
+callTestCase,Chrome 67.0.3396.87,Call 'Login' test case,2018-06-21 15:06:54,2018-06-21 15:06:57,3.098s,PASSED
+comment,Chrome 67.0.3396.87,,2018-06-21 15:06:57,2018-06-21 15:06:57,0.001s,PASSED
+Statement - switch (var_expectedResult.toString()),Chrome 67.0.3396.87,Check expected results,2018-06-21 15:06:57,2018-06-21 15:06:57,0.076s,PASSED
+closeBrowser,Chrome 67.0.3396.87,(This can be added to a clear down function),2018-06-21 15:06:57,2018-06-21 15:06:58,0.743s,PASSED
+,,,,,,
+Test Cases/Test Cases - Portal/TC1_Verify Successfull Login,Chrome 67.0.3396.87,,2018-06-21 15:06:58,2018-06-21 15:07:08,9.958s,PASSED
+comment,Chrome 67.0.3396.87,,2018-06-21 15:06:58,2018-06-21 15:06:58,0.004s,PASSED
+comment,Chrome 67.0.3396.87,,2018-06-21 15:06:58,2018-06-21 15:06:58,0.001s,PASSED
+openBrowser,Chrome 67.0.3396.87,(This can be added to a setup function),2018-06-21 15:06:58,2018-06-21 15:07:00,1.976s,PASSED
+navigateToUrl,Chrome 67.0.3396.87,,2018-06-21 15:07:00,2018-06-21 15:07:03,3.141s,PASSED
+comment,Chrome 67.0.3396.87,,2018-06-21 15:07:03,2018-06-21 15:07:03,0.001s,PASSED
+callTestCase,Chrome 67.0.3396.87,Call 'Login' test case,2018-06-21 15:07:03,2018-06-21 15:07:07,4.022s,PASSED
+comment,Chrome 67.0.3396.87,,2018-06-21 15:07:07,2018-06-21 15:07:07,0.001s,PASSED
+Statement - switch (var_expectedResult.toString()),Chrome 67.0.3396.87,Check expected results,2018-06-21 15:07:07,2018-06-21 15:07:07,0.055s,PASSED
+closeBrowser,Chrome 67.0.3396.87,(This can be added to a clear down function),2018-06-21 15:07:07,2018-06-21 15:07:08,0.739s,PASSED
+,,,,,,
+Test Cases/Test Cases - Portal/TC1_Verify Successfull Login,Chrome 67.0.3396.87,,2018-06-21 15:07:08,2018-06-21 15:07:19,10.993s,PASSED
+comment,Chrome 67.0.3396.87,,2018-06-21 15:07:08,2018-06-21 15:07:08,0.001s,PASSED
+comment,Chrome 67.0.3396.87,,2018-06-21 15:07:08,2018-06-21 15:07:08,0.001s,PASSED
+openBrowser,Chrome 67.0.3396.87,(This can be added to a setup function),2018-06-21 15:07:08,2018-06-21 15:07:10,2.064s,PASSED
+navigateToUrl,Chrome 67.0.3396.87,,2018-06-21 15:07:10,2018-06-21 15:07:13,2.879s,PASSED
+comment,Chrome 67.0.3396.87,,2018-06-21 15:07:13,2018-06-21 15:07:13,0.002s,PASSED
+callTestCase,Chrome 67.0.3396.87,Call 'Login' test case,2018-06-21 15:07:13,2018-06-21 15:07:18,5.282s,PASSED
+comment,Chrome 67.0.3396.87,,2018-06-21 15:07:18,2018-06-21 15:07:18,0.001s,PASSED
+Statement - switch (var_expectedResult.toString()),Chrome 67.0.3396.87,Check expected results,2018-06-21 15:07:18,2018-06-21 15:07:18,0.037s,PASSED
+closeBrowser,Chrome 67.0.3396.87,(This can be added to a clear down function),2018-06-21 15:07:18,2018-06-21 15:07:19,0.705s,PASSED

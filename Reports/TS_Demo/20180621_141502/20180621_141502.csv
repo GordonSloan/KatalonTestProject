@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Demo,Firefox 60.0,,2018-06-21 14:15:04,2018-06-21 14:15:27,22.737s,PASSED
+,,,,,,
+Test Cases/Test Cases - Portal/TC1_Verify Successfull Login,Firefox 60.0,,2018-06-21 14:15:05,2018-06-21 14:15:14,9.581s,PASSED
+comment,Firefox 60.0,,2018-06-21 14:15:05,2018-06-21 14:15:05,0.052s,PASSED
+comment,Firefox 60.0,,2018-06-21 14:15:05,2018-06-21 14:15:05,0.005s,PASSED
+openBrowser,Firefox 60.0,(This can be added to a setup function),2018-06-21 14:15:05,2018-06-21 14:15:10,5.055s,PASSED
+navigateToUrl,Firefox 60.0,,2018-06-21 14:15:10,2018-06-21 14:15:12,1.750s,PASSED
+comment,Firefox 60.0,,2018-06-21 14:15:12,2018-06-21 14:15:12,0.002s,PASSED
+callTestCase,Firefox 60.0,Call 'Login' test case,2018-06-21 14:15:12,2018-06-21 14:15:14,2.160s,PASSED
+comment,Firefox 60.0,,2018-06-21 14:15:14,2018-06-21 14:15:14,0.002s,PASSED
+Statement - switch (var_expectedResult.toString()),Firefox 60.0,Check expected results,2018-06-21 14:15:14,2018-06-21 14:15:14,0.023s,PASSED
+closeBrowser,Firefox 60.0,(This can be added to a clear down function),2018-06-21 14:15:14,2018-06-21 14:15:14,0.184s,PASSED
+,,,,,,
+Test Cases/Test Cases - Portal/TC1_Verify Successfull Login,Firefox 60.0,,2018-06-21 14:15:14,2018-06-21 14:15:21,6.182s,PASSED
+comment,Firefox 60.0,,2018-06-21 14:15:14,2018-06-21 14:15:14,0.000s,PASSED
+comment,Firefox 60.0,,2018-06-21 14:15:14,2018-06-21 14:15:14,0.000s,PASSED
+openBrowser,Firefox 60.0,(This can be added to a setup function),2018-06-21 14:15:14,2018-06-21 14:15:17,2.259s,PASSED
+navigateToUrl,Firefox 60.0,,2018-06-21 14:15:17,2018-06-21 14:15:18,1.706s,PASSED
+comment,Firefox 60.0,,2018-06-21 14:15:18,2018-06-21 14:15:18,0.001s,PASSED
+callTestCase,Firefox 60.0,Call 'Login' test case,2018-06-21 14:15:18,2018-06-21 14:15:20,1.913s,PASSED
+comment,Firefox 60.0,,2018-06-21 14:15:20,2018-06-21 14:15:20,0.000s,PASSED
+Statement - switch (var_expectedResult.toString()),Firefox 60.0,Check expected results,2018-06-21 14:15:20,2018-06-21 14:15:20,0.022s,PASSED
+closeBrowser,Firefox 60.0,(This can be added to a clear down function),2018-06-21 14:15:20,2018-06-21 14:15:21,0.264s,PASSED
+,,,,,,
+Test Cases/Test Cases - Portal/TC1_Verify Successfull Login,Firefox 60.0,,2018-06-21 14:15:21,2018-06-21 14:15:27,6.558s,PASSED
+comment,Firefox 60.0,,2018-06-21 14:15:21,2018-06-21 14:15:21,0.000s,PASSED
+comment,Firefox 60.0,,2018-06-21 14:15:21,2018-06-21 14:15:21,0.000s,PASSED
+openBrowser,Firefox 60.0,(This can be added to a setup function),2018-06-21 14:15:21,2018-06-21 14:15:23,2.257s,PASSED
+navigateToUrl,Firefox 60.0,,2018-06-21 14:15:23,2018-06-21 14:15:24,1.638s,PASSED
+comment,Firefox 60.0,,2018-06-21 14:15:24,2018-06-21 14:15:24,0.000s,PASSED
+callTestCase,Firefox 60.0,Call 'Login' test case,2018-06-21 14:15:24,2018-06-21 14:15:27,2.432s,PASSED
+comment,Firefox 60.0,,2018-06-21 14:15:27,2018-06-21 14:15:27,0.001s,PASSED
+Statement - switch (var_expectedResult.toString()),Firefox 60.0,Check expected results,2018-06-21 14:15:27,2018-06-21 14:15:27,0.016s,PASSED
+closeBrowser,Firefox 60.0,(This can be added to a clear down function),2018-06-21 14:15:27,2018-06-21 14:15:27,0.197s,PASSED

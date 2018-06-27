@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Demo" time="28" tests="0" failures="1" errors="0">
+   <testsuite name="TS_Demo" tests="0" failures="1" errors="0" time="28" timestamp="2018-06-20 23:50:45" hostname="GordonSloan - LAPTOP-1SON56RS.home" id="Test Suites/TS_Demo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Workspace\\Test Project\\KatalonTestProject\\Reports\\TS_Demo\\20180620_235043"/>
+         <property name="logFiles" value="C:\\Workspace\\Test Project\\KatalonTestProject\\Reports\\TS_Demo\\20180620_235043\\execution0.log"/>
+         <property name="attachments" value="C:\\Workspace\\Test Project\\KatalonTestProject\\Reports\\TS_Demo\\20180620_235043\\1529535072517.png"/>
+         <property name="hostName" value="GordonSloan - LAPTOP-1SON56RS.home"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.87"/>
+         <property name="hostAddress" value="192.168.1.163"/>
+         <property name="sessionId" value="f47eb8652ed1d346cefcba19a2541774"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test Cases - Portal/TC3_Verify Completion of Standard Application" classname="Test Cases/Test Cases - Portal/TC3_Verify Completion of Standard Application" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Research Grants - Initial Proposal/Page 2 of 4/Question 2 (GMS Organisation)/Page_Application form - Gordon Test/li_General' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;li class=&quot;rcbItem&quot;>...&lt;/li> is not clickable at point (1002, 695). Other element would receive the click: &lt;li class=&quot;rcbItem&quot;>...&lt;/li>
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-1SON56RS', ip: '192.168.1.163', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\GORDON~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: f47eb8652ed1d346cefcba19a2541774)"/>
+         <system-out><![CDATA[2018-06-20 23:50:45 - [TEST_CASE][FAILED] - Test Cases/Test Cases - Portal/TC3_Verify Completion of Standard Application: Test Cases/Test Cases - Portal/TC3_Verify Completion of Standard Application FAILED because (of) Unable to click on object 'Object Repository/Research Grants - Initial Proposal/Page 2 of 4/Question 2 (GMS Organisation)/Page_Application form - Gordon Test/li_General' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <li class="rcbItem">...</li> is not clickable at point (1002, 695). Other element would receive the click: <li class="rcbItem">...</li>
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-1SON56RS', ip: '192.168.1.163', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\GORDON~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: f47eb8652ed1d346cefcba19a2541774)
+
+2018-06-20 23:50:46 - [TEST_STEP][PASSED] - comment: This test has a few issues that need sorted out relating to the Activites question and File Upload
+
+2018-06-20 23:50:46 - [TEST_STEP][PASSED] - comment: Open browser and navigate to test tenant
+
+2018-06-20 23:50:46 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-20 23:50:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-20 23:50:49 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-20 23:50:50 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-20 23:50:50 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://gordontesting.flexigrant.com/' successfully
+
+2018-06-20 23:50:52 - [MESSAGE][PASSED] - Navigate to 'https://gordontesting.flexigrant.com/' successfully
+
+2018-06-20 23:50:52 - [TEST_STEP][PASSED] - comment: Login
+
+2018-06-20 23:50:52 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Generic Tests/Login' successfully
+
+2018-06-20 23:50:52 - [TEST_CASE][PASSED] - Test Cases/Generic Tests/Login: Test Cases/Generic Tests/Login
+
+2018-06-20 23:50:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Generic Tests/Login/Page_Portal homepage - Gordon Testi/a_Login' is clicked on
+
+2018-06-20 23:50:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic Tests/Login/Page_Portal homepage - Gordon Testi/a_Login' is clicked on
+
+2018-06-20 23:50:53 - [TEST_STEP][PASSED] - setText: Text 'test.user@sharklasers.com' is set on object 'Object Repository/Generic Tests/Login/Page_Login - Gordon Testing/txtUserName'
+
+2018-06-20 23:50:53 - [MESSAGE][PASSED] - Text 'test.user@sharklasers.com' is set on object 'Object Repository/Generic Tests/Login/Page_Login - Gordon Testing/txtUserName'
+
+2018-06-20 23:50:53 - [TEST_STEP][PASSED] - setText: Text 'password123' is set on object 'Object Repository/Generic Tests/Login/Page_Login - Gordon Testing/txtPassword'
+
+2018-06-20 23:50:53 - [MESSAGE][PASSED] - Text 'password123' is set on object 'Object Repository/Generic Tests/Login/Page_Login - Gordon Testing/txtPassword'
+
+2018-06-20 23:50:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Generic Tests/Login/Page_Login - Gordon Testing/btnLogin' is clicked on
+
+2018-06-20 23:50:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic Tests/Login/Page_Login - Gordon Testing/btnLogin' is clicked on
+
+2018-06-20 23:50:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Generic Tests/Login' successfully
+
+2018-06-20 23:50:54 - [TEST_STEP][PASSED] - comment: Start application
+
+2018-06-20 23:50:54 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Research Grants - Initial Proposal/Start Application (TC3)' successfully
+
+2018-06-20 23:50:54 - [TEST_CASE][PASSED] - Test Cases/Research Grants - Initial Proposal/Start Application (TC3): Test Cases/Research Grants - Initial Proposal/Start Application (TC3)
+
+2018-06-20 23:50:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Research Grants - Initial Proposal/Start Application (TC3)/Page_Portal homepage - Gordon Testi/a_Application Portal' is clicked on
+
+2018-06-20 23:50:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Research Grants - Initial Proposal/Start Application (TC3)/Page_Portal homepage - Gordon Testi/a_Application Portal' is clicked on
+
+2018-06-20 23:50:58 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Research Grants - Initial Proposal/Start Application (TC3)/Page_My applications - Gordon Testi/div_Research Grants - Initial' is present
+
+2018-06-20 23:50:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-20 23:50:58 - [MESSAGE][PASSED] - Object 'Object Repository/Research Grants - Initial Proposal/Start Application (TC3)/Page_My applications - Gordon Testi/div_Research Grants - Initial' is present
+
+2018-06-20 23:50:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Research Grants - Initial Proposal/Start Application (TC3)/Page_My applications - Gordon Testi/a_Start' is clicked on
+
+2018-06-20 23:51:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Research Grants - Initial Proposal/Start Application (TC3)/Page_My applications - Gordon Testi/a_Start' is clicked on
+
+2018-06-20 23:51:00 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Research Grants - Initial Proposal/Start Application (TC3)/Page_Start an application - Gordon/div_fx-contactfulladdnotesubmi' is present
+
+2018-06-20 23:51:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-20 23:51:00 - [MESSAGE][PASSED] - Object 'Object Repository/Research Grants - Initial Proposal/Start Application (TC3)/Page_Start an application - Gordon/div_fx-contactfulladdnotesubmi' is present
+
+2018-06-20 23:51:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Research Grants - Initial Proposal/Start Application (TC3)/Page_Start an application - Gordon/input_ctl00MainContentchkAgree' is clicked on
+
+2018-06-20 23:51:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Research Grants - Initial Proposal/Start Application (TC3)/Page_Start an application - Gordon/input_ctl00MainContentchkAgree' is clicked on
+
+2018-06-20 23:51:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Research Grants - Initial Proposal/Start Application (TC3)/Page_Start an application - Gordon/input_ctl00MainContentbtnStart' is clicked on
+
+2018-06-20 23:51:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Research Grants - Initial Proposal/Start Application (TC3)/Page_Start an application - Gordon/input_ctl00MainContentbtnStart' is clicked on
+
+2018-06-20 23:51:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Research Grants - Initial Proposal/Start Application (TC3)' successfully
+
+2018-06-20 23:51:02 - [TEST_STEP][PASSED] - comment: End tour
+
+2018-06-20 23:51:02 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Research Grants - Initial Proposal/Guided Tour (TC3)' successfully
+
+2018-06-20 23:51:02 - [TEST_CASE][PASSED] - Test Cases/Research Grants - Initial Proposal/Guided Tour (TC3): Test Cases/Research Grants - Initial Proposal/Guided Tour (TC3)
+
+2018-06-20 23:51:02 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Research Grants - Initial Proposal/Guided Tour (TC3)/Page_Application form - Gordon Test/div_Guided TourLet us show you' is present
+
+2018-06-20 23:51:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-20 23:51:03 - [MESSAGE][PASSED] - Object 'Object Repository/Research Grants - Initial Proposal/Guided Tour (TC3)/Page_Application form - Gordon Test/div_Guided TourLet us show you' is present
+
+2018-06-20 23:51:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Research Grants - Initial Proposal/Guided Tour (TC3)/Page_Application form - Gordon Test/button_' is clicked on
+
+2018-06-20 23:51:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Research Grants - Initial Proposal/Guided Tour (TC3)/Page_Application form - Gordon Test/button_' is clicked on
+
+2018-06-20 23:51:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Research Grants - Initial Proposal/Guided Tour (TC3)' successfully
+
+2018-06-20 23:51:03 - [TEST_STEP][PASSED] - comment: Verify percentage complete
+
+2018-06-20 23:51:03 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/TC3_Verify Completion of Standard Application/Page_Application form - Gordon Test/div_0 complete' is present
+
+2018-06-20 23:51:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-20 23:51:03 - [MESSAGE][PASSED] - Object 'Object Repository/TC3_Verify Completion of Standard Application/Page_Application form - Gordon Test/div_0 complete' is present
+
+2018-06-20 23:51:03 - [TEST_STEP][PASSED] - comment: Generate PDF
+
+2018-06-20 23:51:03 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2018-06-20 23:51:03 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2018-06-20 23:51:03 - [TEST_STEP][PASSED] - comment: Confirm default status of pages
+
+2018-06-20 23:51:03 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/TC3_Verify Completion of Standard Application/Page_Application form - Gordon Test/span_Not Started' is present
+
+2018-06-20 23:51:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-20 23:51:03 - [MESSAGE][PASSED] - Object 'Object Repository/TC3_Verify Completion of Standard Application/Page_Application form - Gordon Test/span_Not Started' is present
+
+2018-06-20 23:51:03 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/TC3_Verify Completion of Standard Application/Page_Application form - Gordon Test/span_Not Started_1' is present
+
+2018-06-20 23:51:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-20 23:51:03 - [MESSAGE][PASSED] - Object 'Object Repository/TC3_Verify Completion of Standard Application/Page_Application form - Gordon Test/span_Not Started_1' is present
+
+2018-06-20 23:51:03 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/TC3_Verify Completion of Standard Application/Page_Application form - Gordon Test/span_Not Started_2' is present
+
+2018-06-20 23:51:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-20 23:51:03 - [MESSAGE][PASSED] - Object 'Object Repository/TC3_Verify Completion of Standard Application/Page_Application form - Gordon Test/span_Not Started_2' is present
+
+2018-06-20 23:51:03 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/TC3_Verify Completion of Standard Application/Page_Application form - Gordon Test/span_Not Started_3' is present
+
+2018-06-20 23:51:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-20 23:51:03 - [MESSAGE][PASSED] - Object 'Object Repository/TC3_Verify Completion of Standard Application/Page_Application form - Gordon Test/span_Not Started_3' is present
+
+2018-06-20 23:51:03 - [TEST_STEP][PASSED] - comment: Start first page
+
+2018-06-20 23:51:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC3_Verify Completion of Standard Application/Page_Application form - Gordon Test/a_Start' is clicked on
+
+2018-06-20 23:51:05 - [MESSAGE][PASSED] - Object: 'Object Repository/TC3_Verify Completion of Standard Application/Page_Application form - Gordon Test/a_Start' is clicked on
+
+2018-06-20 23:51:05 - [TEST_STEP][PASSED] - comment: Page 1 of 4
+
+2018-06-20 23:51:05 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Research Grants - Initial Proposal/Page 1 of 4/Save and Verify Page Errors (TC3)' successfully
+
+2018-06-20 23:51:05 - [TEST_CASE][PASSED] - Test Cases/Research Grants - Initial Proposal/Page 1 of 4/Save and Verify Page Errors (TC3): Test Cases/Research Grants - Initial Proposal/Page 1 of 4/Save and Verify Page Errors (TC3)
+
+2018-06-20 23:51:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Research Grants - Initial Proposal/Page 1 of 4/Save and Verify Page Errors (TC3)/Page_Application form - Gordon Test/a_Save progress' is clicked on
+
+2018-06-20 23:51:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Research Grants - Initial Proposal/Page 1 of 4/Save and Verify Page Errors (TC3)/Page_Application form - Gordon Test/a_Save progress' is clicked on
+
+2018-06-20 23:51:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Research Grants - Initial Proposal/Page 1 of 4/Save and Verify Page Errors (TC3)/Page_Application form - Gordon Test/div_There were some problems w' is present
+
+2018-06-20 23:51:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-20 23:51:07 - [MESSAGE][PASSED] - Object 'Object Repository/Research Grants - Initial Proposal/Page 1 of 4/Save and Verify Page Errors (TC3)/Page_Application form - Gordon Test/div_There were some problems w' is present
+
+2018-06-20 23:51:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Research Grants - Initial Proposal/Page 1 of 4/Save and Verify Page Errors (TC3)/Page_Application form - Gordon Test/div_We have identified the fol' is present
+
+2018-06-20 23:51:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-20 23:51:07 - [MESSAGE][PASSED] - Object 'Object Repository/Research Grants - Initial Proposal/Page 1 of 4/Save and Verify Page Errors (TC3)/Page_Application form - Gordon Test/div_We have identified the fol' is present
+
+2018-06-20 23:51:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Research Grants - Initial Proposal/Page 1 of 4/Save and Verify Page Errors (TC3)/Page_Application form - Gordon Test/li_Warning - You must provide' is present
+
+2018-06-20 23:51:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-20 23:51:07 - [MESSAGE][PASSED] - Object 'Object Repository/Research Grants - Initial Proposal/Page 1 of 4/Save and Verify Page Errors (TC3)/Page_Application form - Gordon Test/li_Warning - You must provide' is present
+
+2018-06-20 23:51:07 - [TEST_STEP][NOT_RUN] - verifyElementPresent: NOT_RUN: verifyElementPresent
+
+2018-06-20 23:51:07 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent
+
+2018-06-20 23:51:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Research Grants - Initial Proposal/Page 1 of 4/Save and Verify Page Errors (TC3)' successfully
+
+2018-06-20 23:51:07 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Research Grants - Initial Proposal/Page 1 of 4/Question 1 (Radio List)' successfully
+
+2018-06-20 23:51:07 - [TEST_CASE][PASSED] - Test Cases/Research Grants - Initial Proposal/Page 1 of 4/Question 1 (Radio List): Test Cases/Research Grants - Initial Proposal/Page 1 of 4/Question 1 (Radio List)
+
+2018-06-20 23:51:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Research Grants - Initial Proposal/Page 1 of 4/Question 1 (Radio List)/Page_Application form - Gordon Test/input_ctl00MainContentctl00ucF_1' is clicked on
+
+2018-06-20 23:51:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Research Grants - Initial Proposal/Page 1 of 4/Question 1 (Radio List)/Page_Application form - Gordon Test/input_ctl00MainContentctl00ucF_1' is clicked on
+
+2018-06-20 23:51:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Research Grants - Initial Proposal/Page 1 of 4/Question 1 (Radio List)/Page_Application form - Gordon Test/span_Unfortunately you are not' is present
+
+2018-06-20 23:51:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-20 23:51:07 - [MESSAGE][PASSED] - Object 'Object Repository/Research Grants - Initial Proposal/Page 1 of 4/Question 1 (Radio List)/Page_Application form - Gordon Test/span_Unfortunately you are not' is present
+
+2018-06-20 23:51:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Research Grants - Initial Proposal/Page 1 of 4/Question 1 (Radio List)/Page_Application form - Gordon Test/input_ctl00MainContentctl00ucF_2' is clicked on
+
+2018-06-20 23:51:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Research Grants - Initial Proposal/Page 1 of 4/Question 1 (Radio List)/Page_Application form - Gordon Test/input_ctl00MainContentctl00ucF_2' is clicked on
+
+2018-06-20 23:51:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Research Grants - Initial Proposal/Page 1 of 4/Question 1 (Radio List)' successfully
+
+2018-06-20 23:51:08 - [TEST_STEP][PASSED] - comment: Navigate to next page
+
+2018-06-20 23:51:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC3_Verify Completion of Standard Application/Page_Application form - Gordon Test/a_Next page' is clicked on
+
+2018-06-20 23:51:10 - [MESSAGE][PASSED] - Object: 'Object Repository/TC3_Verify Completion of Standard Application/Page_Application form - Gordon Test/a_Next page' is clicked on
+
+2018-06-20 23:51:10 - [TEST_STEP][PASSED] - comment: Page 2 of 4
+
+2018-06-20 23:51:10 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2018-06-20 23:51:10 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2018-06-20 23:51:10 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Research Grants - Initial Proposal/Page 2 of 4/Question 2 (GMS Organisation)' (Root cause: Call Test Case 'Test Cases/Research Grants - Initial Proposal/Page 2 of 4/Question 2 (GMS Organisation)' failed)
+
+2018-06-20 23:51:11 - [TEST_CASE][FAILED] - Test Cases/Research Grants - Initial Proposal/Page 2 of 4/Question 2 (GMS Organisation): Test Cases/Research Grants - Initial Proposal/Page 2 of 4/Question 2 (GMS Organisation) FAILED because (of) Unable to click on object 'Object Repository/Research Grants - Initial Proposal/Page 2 of 4/Question 2 (GMS Organisation)/Page_Application form - Gordon Test/li_General' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <li class="rcbItem">...</li> is not clickable at point (1002, 695). Other element would receive the click: <li class="rcbItem">...</li>
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-1SON56RS', ip: '192.168.1.163', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\GORDON~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: f47eb8652ed1d346cefcba19a2541774)
+
+2018-06-20 23:51:11 - [TEST_STEP][NOT_RUN] - verifyElementPresent: NOT_RUN: verifyElementPresent
+
+2018-06-20 23:51:11 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent
+
+2018-06-20 23:51:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Research Grants - Initial Proposal/Page 2 of 4/Question 2 (GMS Organisation)/Page_Application form - Gordon Test/a_Add organisation' is clicked on
+
+2018-06-20 23:51:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Research Grants - Initial Proposal/Page 2 of 4/Question 2 (GMS Organisation)/Page_Application form - Gordon Test/a_Add organisation' is clicked on
+
+2018-06-20 23:51:11 - [TEST_STEP][PASSED] - setText: Text 'Test Org' is set on object 'Object Repository/Research Grants - Initial Proposal/Page 2 of 4/Question 2 (GMS Organisation)/Page_Application form - Gordon Test/input_ctl00MainContentctl00ucF_7'
+
+2018-06-20 23:51:12 - [MESSAGE][PASSED] - Text 'Test Org' is set on object 'Object Repository/Research Grants - Initial Proposal/Page 2 of 4/Question 2 (GMS Organisation)/Page_Application form - Gordon Test/input_ctl00MainContentctl00ucF_7'
+
+2018-06-20 23:51:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Research Grants - Initial Proposal/Page 2 of 4/Question 2 (GMS Organisation)/Page_Application form - Gordon Test/a_select' is clicked on
+
+2018-06-20 23:51:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Research Grants - Initial Proposal/Page 2 of 4/Question 2 (GMS Organisation)/Page_Application form - Gordon Test/a_select' is clicked on
+
+2018-06-20 23:51:12 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Research Grants - Initial Proposal/Page 2 of 4/Question 2 (GMS Organisation)/Page_Application form - Gordon Test/li_General' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <li class="rcbItem">...</li> is not clickable at point (1002, 695). Other element would receive the click: <li class="rcbItem">...</li>
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-1SON56RS', ip: '192.168.1.163', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\GORDON~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: f47eb8652ed1d346cefcba19a2541774)
+
+2018-06-20 23:51:12 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Research Grants - Initial Proposal/Page 2 of 4/Question 2 (GMS Organisation)/Page_Application form - Gordon Test/li_General' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <li class="rcbItem">...</li> is not clickable at point (1002, 695). Other element would receive the click: <li class="rcbItem">...</li>
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-1SON56RS', ip: '192.168.1.163', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\GORDON~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: f47eb8652ed1d346cefcba19a2541774)
+[[ATTACHMENT|C:\\Workspace\\Test Project\\KatalonTestProject\\Reports\\TS_Demo\\20180620_235043\\1529535072517.png]]
+
+2018-06-20 23:51:12 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Research Grants - Initial Proposal/Page 2 of 4/Question 2 (GMS Organisation)' (Root cause: Call Test Case 'Test Cases/Research Grants - Initial Proposal/Page 2 of 4/Question 2 (GMS Organisation)' failed)]]></system-out>
+         <system-err><![CDATA[2018-06-20 23:50:45 - [TEST_CASE][FAILED] - Test Cases/Test Cases - Portal/TC3_Verify Completion of Standard Application: Test Cases/Test Cases - Portal/TC3_Verify Completion of Standard Application FAILED because (of) Unable to click on object 'Object Repository/Research Grants - Initial Proposal/Page 2 of 4/Question 2 (GMS Organisation)/Page_Application form - Gordon Test/li_General' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <li class="rcbItem">...</li> is not clickable at point (1002, 695). Other element would receive the click: <li class="rcbItem">...</li>
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-1SON56RS', ip: '192.168.1.163', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\GORDON~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: f47eb8652ed1d346cefcba19a2541774)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-20 23:50:45 - [TEST_SUITE][FAILED] - TS_Demo: Test Cases/Test Cases - Portal/TC3_Verify Completion of Standard Application FAILED because (of) Unable to click on object 'Object Repository/Research Grants - Initial Proposal/Page 2 of 4/Question 2 (GMS Organisation)/Page_Application form - Gordon Test/li_General' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <li class="rcbItem">...</li> is not clickable at point (1002, 695). Other element would receive the click: <li class="rcbItem">...</li>
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-1SON56RS', ip: '192.168.1.163', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\GORDON~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: f47eb8652ed1d346cefcba19a2541774)]]></system-out>
+      <system-err><![CDATA[2018-06-20 23:50:45 - [TEST_SUITE][FAILED] - TS_Demo: Test Cases/Test Cases - Portal/TC3_Verify Completion of Standard Application FAILED because (of) Unable to click on object 'Object Repository/Research Grants - Initial Proposal/Page 2 of 4/Question 2 (GMS Organisation)/Page_Application form - Gordon Test/li_General' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <li class="rcbItem">...</li> is not clickable at point (1002, 695). Other element would receive the click: <li class="rcbItem">...</li>
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-1SON56RS', ip: '192.168.1.163', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\GORDON~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: f47eb8652ed1d346cefcba19a2541774)]]></system-err>
+   </testsuite>
+</testsuites>

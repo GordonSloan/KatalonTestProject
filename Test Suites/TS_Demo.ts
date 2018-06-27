@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS_Regression Test</name>
+   <name>TS_Demo</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2018-06-21T15:17:31</lastRun>
    <mailRecipient>gordon.sloan@fluenttechnology.com;</mailRecipient>
    <numberOfRerun>3</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>true</rerunFailedTestCasesOnly>
-   <testSuiteGuid>60b6abf0-5b98-4d63-856e-eba17877148f</testSuiteGuid>
+   <testSuiteGuid>e319068b-2a91-4a82-9735-02b80d813e14</testSuiteGuid>
    <testCaseLink>
-      <guid>3e1654f2-d779-4de8-b794-d9fa43f76ad9</guid>
+      <guid>a8d9b2a0-6686-435b-bce8-caef984bc250</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Test Cases - Portal/TC1_Verify Successfull Login</testCaseId>
       <testDataLink>
          <combinationType>MANY</combinationType>
-         <id>01fbde39-2e19-4210-99f8-a04f954e53fe</id>
+         <id>689d8442-14f2-4db1-8eda-a5885e77004b</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -25,26 +26,26 @@
          <testDataId>Data Files/DF_Login</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>f2a2ef46-21b9-4294-884d-3332a2b7e890</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>01fbde39-2e19-4210-99f8-a04f954e53fe</testDataLinkId>
+         <testDataLinkId>689d8442-14f2-4db1-8eda-a5885e77004b</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value></value>
-         <variableId>6f619d07-3967-4317-ba0e-8baf02ede595</variableId>
+         <value>username</value>
+         <variableId>b72cee1b-905d-4cda-af73-0021d22d9ad0</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>01fbde39-2e19-4210-99f8-a04f954e53fe</testDataLinkId>
+         <testDataLinkId>689d8442-14f2-4db1-8eda-a5885e77004b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>c1f1ec1f-8fc8-476a-bad4-a026df1cc3e1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>689d8442-14f2-4db1-8eda-a5885e77004b</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>expected result</value>
-         <variableId>23dd6c99-0e35-45e1-bed5-28c19b1288b5</variableId>
+         <variableId>fff4c8e2-cc04-443b-9caf-e7c53fffdca3</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>76901073-f675-4e8b-a613-d62c89d4bf26</guid>
+      <guid>14f8d133-4e6b-45fc-90a1-8fb1bb603188</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/Test Cases - Portal/TC3_Verify Completion of Standard Application</testCaseId>

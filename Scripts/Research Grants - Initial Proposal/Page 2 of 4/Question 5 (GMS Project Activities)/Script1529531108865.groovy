@@ -30,7 +30,9 @@ WebUI.click(findTestObject('Research Grants - Initial Proposal/Page 2 of 4/Quest
 'Activity type'
 WebUI.click(findTestObject('Research Grants - Initial Proposal/Page 2 of 4/Question 5 (GMS Project Activities)/Page_Application form - Gordon Test/a_select'))
 
-WebUI.focus(findTestObject('Research Grants - Initial Proposal/Page 2 of 4/Question 5 (GMS Project Activities)/Page_Application form - Gordon Test/div_Please Select...FoodHand g'))
+WebUI.delay(1)
+
+not_run: WebUI.focus(findTestObject('Research Grants - Initial Proposal/Page 2 of 4/Question 5 (GMS Project Activities)/Page_Application form - Gordon Test/div_Please Select...FoodHand g'))
 
 not_run: WebUI.selectOptionByValue(findTestObject('Research Grants - Initial Proposal/Page 2 of 4/Question 5 (GMS Project Activities)/Page_Application form - Gordon Test/div_Please Select...FoodHand g'), 
     'Food', false)
@@ -52,21 +54,27 @@ WebUI.setText(findTestObject('Research Grants - Initial Proposal/Page 2 of 4/Que
 'Owner type'
 WebUI.click(findTestObject('Research Grants - Initial Proposal/Page 2 of 4/Question 5 (GMS Project Activities)/Page_Application form - Gordon Test/a_select (1)'))
 
-WebUI.focus(findTestObject('Research Grants - Initial Proposal/Page 2 of 4/Question 5 (GMS Project Activities)/Page_Application form - Gordon Test/div_Please Select...SchoolComm'))
+WebUI.delay(1)
+
+not_run: WebUI.focus(findTestObject('Research Grants - Initial Proposal/Page 2 of 4/Question 5 (GMS Project Activities)/Page_Application form - Gordon Test/div_Please Select...SchoolComm'))
 
 WebUI.click(findTestObject('Research Grants - Initial Proposal/Page 2 of 4/Question 5 (GMS Project Activities)/Page_Application form - Gordon Test/li_Charity Trusts'))
 
 'Output type'
 WebUI.click(findTestObject('Research Grants - Initial Proposal/Page 2 of 4/Question 5 (GMS Project Activities)/Page_Application form - Gordon Test/a_select (2)'))
 
-WebUI.focus(findTestObject('Research Grants - Initial Proposal/Page 2 of 4/Question 5 (GMS Project Activities)/Page_Application form - Gordon Test/div_Please Select...Santa puts'))
+WebUI.delay(1)
+
+not_run: WebUI.focus(findTestObject('Research Grants - Initial Proposal/Page 2 of 4/Question 5 (GMS Project Activities)/Page_Application form - Gordon Test/div_Please Select...Santa puts'))
 
 WebUI.click(findTestObject('Research Grants - Initial Proposal/Page 2 of 4/Question 5 (GMS Project Activities)/Page_Application form - Gordon Test/li_Santa puts you on naughty l'))
 
 'Priority'
 WebUI.click(findTestObject('Research Grants - Initial Proposal/Page 2 of 4/Question 5 (GMS Project Activities)/Page_Application form - Gordon Test/a_select (3)'))
 
-WebUI.focus(findTestObject('Research Grants - Initial Proposal/Page 2 of 4/Question 5 (GMS Project Activities)/Page_Application form - Gordon Test/div_Please Select...Building c'))
+WebUI.delay(1)
+
+not_run: WebUI.focus(findTestObject('Research Grants - Initial Proposal/Page 2 of 4/Question 5 (GMS Project Activities)/Page_Application form - Gordon Test/div_Please Select...Building c'))
 
 WebUI.click(findTestObject('Research Grants - Initial Proposal/Page 2 of 4/Question 5 (GMS Project Activities)/Page_Application form - Gordon Test/li_Crime reduction and communi'))
 
@@ -92,7 +100,9 @@ WebUI.click(findTestObject('Research Grants - Initial Proposal/Page 2 of 4/Quest
 
 WebUI.click(findTestObject('Research Grants - Initial Proposal/Page 2 of 4/Question 5 (GMS Project Activities)/Page_Application form - Gordon Test/a_select_2'))
 
-WebUI.focus(findTestObject('Research Grants - Initial Proposal/Page 2 of 4/Question 5 (GMS Project Activities)/Page_Application form - Gordon Test/li_Project Social Media'))
+WebUI.delay(1)
+
+not_run: WebUI.focus(findTestObject('Research Grants - Initial Proposal/Page 2 of 4/Question 5 (GMS Project Activities)/Page_Application form - Gordon Test/li_Project Social Media'))
 
 WebUI.click(findTestObject('Research Grants - Initial Proposal/Page 2 of 4/Question 5 (GMS Project Activities)/Page_Application form - Gordon Test/li_Project Social Media'))
 

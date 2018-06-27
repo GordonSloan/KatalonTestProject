@@ -30,6 +30,8 @@ WebUI.setText(findTestObject('Research Grants - Initial Proposal/Page 2 of 4/Que
 
 WebUI.click(findTestObject('Research Grants - Initial Proposal/Page 2 of 4/Question 2 (GMS Organisation)/Page_Application form - Gordon Test/a_select'))
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Research Grants - Initial Proposal/Page 2 of 4/Question 2 (GMS Organisation)/Page_Application form - Gordon Test/li_General'))
 
 WebUI.verifyElementPresent(findTestObject('Research Grants - Initial Proposal/Page 2 of 4/Question 2 (GMS Organisation)/Page_Application form - Gordon Test/input_ctl00MainContentctl00ucF_12'), 
